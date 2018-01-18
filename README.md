@@ -1,3 +1,6 @@
+HTC & MLDS Competition 2017
+Hand Detection
+
 #######如何跑Training#########
 1. 請先選擇HTC所提供的training data的包裝DeepQ-Synth-Hand-02當中的其中一個dataset作training
 
