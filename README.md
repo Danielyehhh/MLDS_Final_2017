@@ -1,6 +1,6 @@
-## Egocentric Hand Detection 
+# Egocentric Hand Detection 
 
-# #####How to do training#########
+## How to do training
 1. Please select DeepQ-Synth-Hand-02 from training data provided by HTC
 - Choose one dataset in DeepQ-Synth-Hand-02 folder to do training
 
@@ -16,7 +16,7 @@ $sh run_training.sh ./DeepQ-Synth-Hand-02/data/s005/img/ ./DeepQ-Synth-Hand-02/d
 
 3. The program loads model and do training
 
-# #####How to do testing#########
+## How to do testing
 1.  Download the judge_package: (supported by HTC.Taiwan)
 
 Link: https://drive.google.com/open?id=1bDKe-lq3w6utonvZWDDOpWFMyhzYkswj
@@ -29,7 +29,7 @@ $pip install judger_hand-0.3.0-py2.py3-none-any.whl
 
 4. The output should be the score of evaluation
 
-# #####Environment#########
+## Environment
 - Training data are from HTC Hand Detection provided by HTC.Taiwan. HTC hand detection module judger_hand should be installed.
 
 - Compile on Ubuntu 16.04 platform and GPU workstation embedding Nvidia Telsa K40
